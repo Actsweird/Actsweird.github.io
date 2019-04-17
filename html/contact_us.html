@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/fontawesome.css">
 	<link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contact.css">
 	<link rel="icon" href="../img/logo_1.png">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	
@@ -46,24 +47,13 @@
 	</div>
 	<!-- Шапка -->
 	
-	<!-- Блок с надписью -->
-	<div class="col-lg-8 col-lg-offset-2 contact_us centered">
-		<h1>Связаться с нами можно по контактам ниже</h1>
-		<div class="arrow"><img src="../img/arrow-down.svg" width="50" height="50" class="center-img"></div>
-	</div>
-	<!-- Блок с надписью -->
-	
-	<!-- Блок с контактами -->
-	<div class="col-lg-8 col-lg-offset-2 contact_us1 centered">
-		<h1>Email - </h1>
-		<br>
-		<h1>Номер телефона -</h1>
-	</div>
-	<!-- Блок с контактами -->
-	
-	<!-- Картинка -->
-	<div class="centered"><img src="../img/about_us.jpg"></div>
-	<!-- Картинка -->
+    <div class="col-lg-8 col-lg-offset-2", id="contact_us">
+        <h1 class="font_center">Привет. Связаться с нами можно по форме ниже.</h1>
+        <form><h2 class="font_center">Введите ваш емейл</h2><textarea class="center">Example@example.com</textarea></form>
+        <form><h2 class="font_center">Введите ваше имя</h2><textarea class="center"></textarea></form>
+        <form><h2 class="font_center">Введите сообщение</h2><textarea cols ="100" rows="20"  required class="center_s"></textarea></form>
+        <button class="center" formaction ="404.html"><h1>Отправить</h1></button>
+    </div>
 	
 	<!-- Подключеные скрипты -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
