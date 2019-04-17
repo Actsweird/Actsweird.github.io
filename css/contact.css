@@ -1,0 +1,18 @@
+﻿#contact_us {
+    margin-top: 20px;
+    /* background-color: #43e2ed;*/
+}
+
+.font_center{
+    text-align: center;
+}
+.center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.center_s {
+    display: block;
+    margin: 0 auto;
+}
